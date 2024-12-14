@@ -20,7 +20,7 @@ const Editor = () => {
     return () => editor.toTextArea();
   }, []);
 
-  return <textarea id="realtimeEditor" placeholder="Start typing..."></textarea>;
+  return <textarea id="realtimeEditor"></textarea>;
 };
 
 export default Editor;
